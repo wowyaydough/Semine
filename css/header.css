@@ -1,10 +1,7 @@
 body{
   
   overflow-x: hidden;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  padding-left: 80px;
 }
 header {
   width: 1760px;
