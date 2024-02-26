@@ -1,14 +1,13 @@
-section#lab {
-  width: 1823px;
+section#lab .wrap {
 }
-section#lab .lab_top{
+section#lab .wrap .lab_top{
   align-items: center;
 } 
-section#lab .lab_top h2{
+section#lab .wrap .lab_top h2{
   font-weight: bold;
 }
 
-section#lab .lab_top h3{
+section#lab .wrap .lab_top h3{
   border: 1px solid #dfdfdf;
   border-radius: 42px;
   width: 120px;
@@ -18,7 +17,7 @@ section#lab .lab_top h3{
   justify-content: center;
   position: relative;
 }
-section#lab .lab_top h3::after{
+section#lab .wrap .lab_top h3::after{
   content:"";
   background-image: url(../img/right.png);
   background-repeat: no-repeat;
@@ -29,19 +28,19 @@ section#lab .lab_top h3::after{
   height: 24px;
 }
 
-section#lab .lab_title{
+section#lab .wrap .lab_title{
 }
-section#lab .lab_title h2{
+section#lab .wrap .lab_title h2{
   font-size: 54px;
 }
 
-section#lab .lab_title h3{
+section#lab .wrap .lab_title h3{
   padding: 0 20px 35px 0;
 }
 
-section#lab .lab_title h3 a{
+section#lab .wrap .lab_title h3 a{
 }
-section#lab .lab_title h3:first-child a::after{
+section#lab .wrap .lab_title h3:first-child a::after{
 content:"";  
 background-image: url(../img/star.png);
 width: 20px;
@@ -57,27 +56,28 @@ section .lab_title h3:not(:first-child) a{
   color:#d4d4d4;
 }
 
-section#lab .wrap {
+section#lab .wrap .wrap {
 
 }
-section#lab .wrap article:first-child{
-  padding-left:0px;  
+section#lab .wrap .wrap article:first-child{
 }
 
-section#lab .wrap article {
-  padding: 0 25px;
+section#lab .wrap .wrap article {
+  width: calc((100% - 90px)/ 4);
 }
-section#lab .wrap article a {
+section#lab .wrap .wrap article a {
 
+  width: 90%;
+  display: block;
 }
-section#lab .wrap article a img {
+section#lab .wrap .wrap article a img {
   border-radius: 10%;
   padding: 0;
   width: 388px;
   height: 388px;
   padding-bottom: 20px;
 }
-section#lab .wrap article a h3 {
+section#lab .wrap .wrap article a h3 {
   background-color: #0bab6d;
   color: white;
   border-radius: 30px;
@@ -89,24 +89,24 @@ section#lab .wrap article a h3 {
   justify-content: center;
 }
 
-section#lab .wrap article:nth-child(3) a h3{
+section#lab .wrap .wrap article:nth-child(3) a h3{
 background-color:#fb9622;
 }
-section#lab .wrap article:nth-child(4) a h3{
+section#lab .wrap .wrap article:nth-child(4) a h3{
 background-color:#fb9622;
 }
-section#lab .wrap article a h2 {
+section#lab .wrap .wrap article a h2 {
   padding-top: 20px;
 }
-section#lab .wrap article a p.h6 {
+section#lab .wrap .wrap article a p.h6 {
   padding: 20px 0 50px 0;
 }
-section#lab .wrap article:nth-child(4) a p.h6{
+section#lab .wrap .wrap article:nth-child(4) a p.h6{
   
   padding: 20px 0 31px 0;
 }
 
-section#lab .wrap article a div p.recipy{
+section#lab .wrap .wrap article a div p.recipy{
   border: 1px solid #ccc;
   padding: 0 10px;
   width: 126px;
@@ -119,10 +119,10 @@ section#lab .wrap article a div p.recipy{
   background-color: #ccc;
 }
 
-section#lab .wrap article a div p.recipy span{
+section#lab .wrap .wrap article a div p.recipy span{
   padding-right: 11px;
 }  
-section#lab .wrap article a div p.skill{
+section#lab .wrap .wrap article a div p.skill{
   border: 1px solid #ccc;
   padding: 0 10px;
   width: 126px;

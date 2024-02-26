@@ -1,5 +1,7 @@
 main{
   
+  width: 1760px;
+  overflow-x: hidden;
 }
 main section{
   
@@ -8,7 +10,6 @@ section#title {
 
 }
 section#title .wrap {
-
 }
 section#title .wrap ul {
   display: grid;

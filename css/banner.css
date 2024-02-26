@@ -6,7 +6,7 @@ section#banner .wrap {
 }
 section#banner .wrap ul {
 
-  width: 88%;
+  justify-content: space-between;
 }
 
 section#banner .wrap ul li .banner {
@@ -49,7 +49,6 @@ section#banner .wrap ul li .banner a::after{
 }
 section#banner .wrap ul li {
 
-  padding-right: 66px;
 }
 section#banner .wrap ul li a {
 

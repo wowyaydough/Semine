@@ -1,42 +1,39 @@
-footer {
+footer{
+  width: 1760px;
+}
+
+footer  .wrap {
 
 }
-footer section#footer {
+footer  .wrap .footL {
 
 }
-footer section#footer .wrap {
-
-  width: 100%;
-}
-footer section#footer .wrap .footL {
-
-}
-footer section#footer .wrap .footL ul.menu {
+footer  .wrap .footL ul.menu {
 
   font-size: 19px;
   display: flex;
   align-items: center;
   padding-bottom: 40px;
 }
-footer section#footer .wrap .footL ul.menu li {
+footer  .wrap .footL ul.menu li {
 
 }
-footer section#footer .wrap .footL ul.menu li a {
+footer  .wrap .footL ul.menu li a {
 
 }
-footer section#footer .wrap .footL ul.add {
+footer  .wrap .footL ul.add {
   color: #666666;
   padding-bottom: 23px;
 }
-footer section#footer .wrap .footL p.h6_B{
+footer  .wrap .footL p.h6_B{
   
   color: #c7c7c7;
 }
 
-footer section#footer .wrap .footL ul.add li {
+footer  .wrap .footL ul.add li {
 
 }
-footer section#footer .wrap .footL ul.add li h6 {
+footer  .wrap .footL ul.add li h6 {
 
 }
 .line{
@@ -46,24 +43,24 @@ footer section#footer .wrap .footL ul.add li h6 {
   margin: 0 12px;
 }
 
-footer section#footer .wrap .footL li p {
+footer  .wrap .footL li p {
 
 }
-footer section#footer .wrap .footR {
+footer  .wrap .footR {
 
 }
-footer section#footer .wrap .footR ul.sns {
+footer  .wrap .footR ul.sns {
 
   padding-right: 26px;
 }
-footer section#footer .wrap .footR ul.sns li {
+footer  .wrap .footR ul.sns li {
 
   padding-right: 21px;
 }
-footer section#footer .wrap .footR ul.sns li a {
+footer  .wrap .footR ul.sns li a {
   font-size: 0;
 }
-footer section#footer .wrap .footR ul.sns li a i{
+footer  .wrap .footR ul.sns li a i{
   
   color: #999;
   font-size: 31px;
@@ -76,13 +73,13 @@ footer section#footer .wrap .footR ul.sns li a i{
   align-items: center;
 }
 
-footer section#footer .wrap .footR select {
+footer  .wrap .footR select {
 
   height: 48px;
   border-radius: 26px;
   text-align: center;
 }
-footer section#footer .wrap .footR select option {
+footer  .wrap .footR select option {
 
 }
 .dot{
