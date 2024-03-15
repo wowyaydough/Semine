@@ -1,16 +1,82 @@
 section#cook {
   background-color: #fff9e2;
   height: 100%;
+  position: relative;
+  z-index: 1;
 }
 section#cook .wrap {
 
   position: relative;
 }
 
-section#cook .wrap .cook_top{
-
+.middle{
+  background: linear-gradient(#fad9ba, #d9f6e1);
+  position: absolute;
+  width: 424px;
+  top: -1px;
+  right: 36%;
+  z-index: 0;
+  height: 500px;
+  border-radius: 34px;
+  padding: 29px;
 }
-
+.m_top{
+  
+  margin-bottom: 358px;
+}
+.m_top::after{
+  content:"";
+  background:linear-gradient(#fff, #feeeec);
+  display: block;
+  width: 482px;
+  height:231px;
+  position:absolute;
+  
+  left: 0px;
+  top: 58%;
+  border-radius: 31px;
+}
+.m_top h2{
+  
+  font-size: 26pt;
+  margin-bottom: 50px;
+}
+.m_top p{
+  color:#aaa6a1;
+}
+.m_bottom{
+  
+  position: relative;
+  top: -73px;
+}
+.m_bottom p{ 
+  display: flex !important;
+  line-height: 1.5;
+}
+section#cook .wrap .cook_top{ 
+  display: flex !important;
+  padding-bottom: 86px;
+}
+.slick-slider{ 
+  display: flex !important;
+}
+.slick-slide img{
+  
+  width: 255px;
+  height: 255px;
+  border-radius: 27px;
+}
+.cookslide{
+  padding-bottom:50px;
+  z-index: 1;
+}
+.cookslide .slick-current{
+  padding: 0 80px;
+}
+section#cook .wrap .cookslide .slick-track{
+  /*! width: auto !important; */
+  display: flex;
+}
 section#cook .wrap .cook_top h2{
 }
 
